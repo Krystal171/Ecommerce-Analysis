@@ -19,8 +19,7 @@
 6. [Implementation Walkthrough](#-implementation-walkthrough)
 7. [Dashboard & Insights](#-dashboard--insights)
 8. [Lineage](#-lineage)
-9. [Repository Structure](#-repository-structure)
-10. [Future Improvements](#-future-improvements)
+9. [Future Improvements](#-future-improvements)
 
 ---
 
@@ -179,13 +178,7 @@ The Gold table is exposed through the **`gold_sem`** semantic model and visualis
 
 ## 📊 Dashboard & Insights
 
-![Order Analysis Dashboard](assets/order_analysis.png)
-
-### Headline KPIs
-
-| Customers | Total Quantity | Total Orders | Shipment Cost | Delayed Orders |
-|:---------:|:--------------:|:------------:|:-------------:|:--------------:|
-| **25** | **121** | **25** | **422.85** | **11** |
+![alt text](https://github.com/Krystal171/Ecommerce-Analysis/blob/main/2.Dashboard/order%20analysis.png)
 
 ### Key Findings
 
@@ -215,23 +208,10 @@ The Gold table is exposed through the **`gold_sem`** semantic model and visualis
 
 ## 🔗 Lineage
 
-![Lineage View](assets/lineage_view.png)
-
-Fabric's lineage view confirms the full data flow: **ADLS Gen2 → Pipeline → Lakehouse → Notebook → SQL analytics endpoint → Semantic model (`gold_sem`) → Power BI report**.
+![alt text](https://github.com/Krystal171/Ecommerce-Analysis/blob/main/2.Dashboard/lineage%20View.png)
 
 ---
 
-## 📁 Repository Structure
-
-```
-SmartDelivery360-Fabric/
-│
-├── README.md
-├── Notebook_1.ipynb          # Bronze → Silver → Gold transformations
-└── assets/
-    ├── order_analysis.png    # Power BI dashboard screenshot
-    └── lineage_view.png      # Fabric lineage view
-```
 ## 🔮 Future Improvements
 
 - Add **incremental loads** and pipeline scheduling instead of full overwrites.
