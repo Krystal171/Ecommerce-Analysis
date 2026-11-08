@@ -1,4 +1,4 @@
-# 📦 SmartDelivery360 – Online Orders & Delivery Delay Analysis
+# 📦 Delivery – Online Orders & Delivery Delay Analysis
 
 **An end-to-end data engineering project on Microsoft Fabric** using a Medallion Architecture (Bronze → Silver → Gold), Spark SQL, Data Pipelines, Delta tables and Power BI.
 
