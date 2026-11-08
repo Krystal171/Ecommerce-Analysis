@@ -1,0 +1,26 @@
+ProductID,Category,Carrier,ShipmentCost,IsDiscounted
+PROD001,Electronics,FedEx,11.61,Yes
+PROD002,Clothing,Amazon Logistics,8.83,Yes
+PROD003,Books,DHL,6.12,Yes
+PROD004,Books,Amazon Logistics,6.82,Yes
+PROD005,Books,FedEx,13.8,No
+PROD006,Home,FedEx,6.77,Yes
+PROD007,Books,Amazon Logistics,18.16,No
+PROD008,Books,FedEx,19.95,Yes
+PROD009,Home,DHL,15.6,Yes
+PROD010,Clothing,FedEx,16.26,No
+PROD011,Electronics,Amazon Logistics,8.87,No
+PROD012,Books,DHL,14.25,Yes
+PROD013,Books,UPS,4.01,No
+PROD014,Clothing,Amazon Logistics,2.06,No
+PROD015,Clothing,DHL,17.67,No
+PROD016,Clothing,FedEx,8.73,Yes
+PROD017,Electronics,UPS,10.79,Yes
+PROD018,Books,UPS,6.31,Yes
+PROD019,Electronics,DHL,15.17,Yes
+PROD020,Clothing,FedEx,13.88,Yes
+PROD021,Books,Amazon Logistics,19.36,Yes
+PROD022,Books,Amazon Logistics,19.91,No
+PROD023,Home,Amazon Logistics,4.18,Yes
+PROD024,Electronics,UPS,2.38,Yes
+PROD025,Clothing,DHL,3.28,Yes

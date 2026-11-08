@@ -1,0 +1,26 @@
+CustomerID,CustomerName,IsPremiumCustomer,SignupDate
+CUST001,Michael Lee,Yes,2022-01-26
+CUST002,Michael Lee,No,2022-09-08
+CUST003,Jane Smith,Yes,2022-04-15
+CUST004,Michael Lee,Yes,2023-08-28
+CUST005,Bob Brown,Yes,2022-01-31
+CUST006,John Doe,Yes,2022-08-27
+CUST007,Emily Davis,Yes,2023-07-29
+CUST008,Jane Smith,No,2022-08-14
+CUST009,Bob Brown,No,2022-01-07
+CUST010,Jane Smith,No,2022-12-15
+CUST011,Alice Johnson,Yes,2022-08-09
+CUST012,Alice Johnson,Yes,2022-04-05
+CUST013,Bob Brown,Yes,2023-01-03
+CUST014,Alice Johnson,No,2022-02-14
+CUST015,Michael Lee,No,2023-07-04
+CUST016,John Doe,No,2022-03-22
+CUST017,Emily Davis,No,2023-10-06
+CUST018,Emily Davis,No,2023-08-15
+CUST019,Jane Smith,Yes,2022-02-16
+CUST020,Michael Lee,Yes,2022-10-24
+CUST021,John Doe,Yes,2022-04-14
+CUST022,Bob Brown,No,2023-04-10
+CUST023,Michael Lee,No,2022-06-16
+CUST024,Alice Johnson,No,2022-08-03
+CUST025,Michael Lee,No,2023-12-20
