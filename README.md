@@ -20,9 +20,7 @@
 7. [Dashboard & Insights](#-dashboard--insights)
 8. [Lineage](#-lineage)
 9. [Repository Structure](#-repository-structure)
-10. [How to Reproduce](#-how-to-reproduce)
-11. [Challenges & Learnings](#-challenges--learnings)
-12. [Future Improvements](#-future-improvements)
+10. [Future Improvements](#-future-improvements)
 
 ---
 
@@ -234,28 +232,6 @@ SmartDelivery360-Fabric/
     ├── order_analysis.png    # Power BI dashboard screenshot
     └── lineage_view.png      # Fabric lineage view
 ```
-
----
-
-## ▶️ How to Reproduce
-
-1. **Create a Fabric workspace** on a Trial or Fabric capacity.
-2. **Create a Lakehouse** (e.g. `ecomm_lakehouse`).
-3. **Upload or connect source data** in ADLS Gen2, then build a **Data Pipeline** that copies the files to `Files/bronze/` in the Lakehouse.
-4. **Import `Notebook_1.ipynb`**, attach it to the Lakehouse, update the `abfss://` paths to your own workspace and lakehouse IDs, and run all cells.
-5. **Create a semantic model** (`gold_sem`) on top of `gold_order_kpis`.
-6. **Build the Power BI report** with the visuals shown above.
-
----
-
-## 🎓 Challenges & Learnings
-
-- **Date inconsistencies:** dates arrived with mixed separators, which I standardised with `REPLACE` and `TO_DATE`.
-- **Categorical inconsistencies:** values like `yes` / `y` / `Y` were mapped to a clean `Yes` / `No` standard.
-- **Medallion design:** separating raw, cleaned and aggregated data made each step easy to debug and reuse.
-- **Business metric design:** defining a "delayed order" (delivery gap greater than 3 days) turned raw dates into an actionable KPI.
-- **Fabric ecosystem:** I learned how Pipelines, Lakehouse, Notebooks, the SQL endpoint, semantic models and Power BI connect in one platform.
-
 ## 🔮 Future Improvements
 
 - Add **incremental loads** and pipeline scheduling instead of full overwrites.
@@ -266,10 +242,3 @@ SmartDelivery360-Fabric/
 - Set up **Git integration and CI/CD** with Fabric deployment pipelines.
 
 ---
-
-## 👤 Author
-
-**Your Name**
-🔗 [LinkedIn](https://linkedin.com/in/your-profile) · 💻 [GitHub](https://github.com/your-username)
-
-⭐ *If you found this project useful, please star the repository!*
